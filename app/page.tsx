@@ -81,7 +81,8 @@ export default function Home() {
             }}
           >
             <iframe
-              src="https://www.youtube.com/embed/OuaUjkZhfqQ"
+            
+              src="https://qlip-public-media.s3.eu-west-3.amazonaws.com/qlip_demo_short_lowres.mp4"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
