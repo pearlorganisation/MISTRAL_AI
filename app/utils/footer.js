@@ -1,75 +1,79 @@
 const footer = [
   {
-    title: "My Account",
+    title: "Links",
     links: [
       {
-        name: "Profile",
-        link: "/profile",
+        name: "Developers",
+        link: "/developers",
       },
       {
-        name: "Settings",
-        link: "/settings",
+        name: "Product",
+        link: "/product",
       },
       {
-        name: "Logout",
-        link: "/logout",
+        name: "Company",
+        link: "/company",
       },
       {
-        name: "Help",
-        link: "/help",
+        name: "News",
+        link: "/news",
       },
     ],
   },
   {
-    title: "Resources",
+    title: "ABOUT",
     links: [
       {
-        name: "Help Center",
-        link: "/help",
+        name: "Contact Us",
+        link: "/contactUs",
       },
       {
-        name: "My Activities",
-        link: "/activities",
+        name: "Careers",
+        link: "/careers",
       },
       {
-        name: "Collections",
-        link: "/collections",
+        name: "Privacy Policy",
+        link: "/privacy_policy",
       },
       {
-        name: "My Collaborations",
-        link: "/collaborations",
+        name: "Terms of Use",
+        link: "/terms_of_use",
+      },
+      {
+        name: "Data Processing Agreement",
+        link: "/data_processing_agreement",
       },
     ],
   },
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "All NFTs",
-        link: "/nfts",
-      },
-      {
-        name: "How to Sell",
-        link: "/sell",
-      },
-      {
-        name: "Create",
-        link: "/create",
-      },
-      {
-        name: "Explore",
-        link: "/explore",
-      },
-      {
-        name: "Marketplace",
-        link: "/marketplace",
-      },
-      {
-        name: "Privacy & Policy",
-        link: "/privacy",
-      },
-    ],
-  },
+  // {
+  //   title: "Useful Links",
+  //   links: [
+  //     {
+  //       name: "All NFTs",
+  //       link: "/nfts",
+  //     },
+  //     {
+  //       name: "How to Sell",
+  //       link: "/sell",
+  //     },
+  //     {
+  //       name: "Create",
+  //       link: "/create",
+  //     },
+  //     {
+  //       name: "Explore",
+  //       link: "/explore",
+  //     },
+  //     {
+  //       name: "Marketplace",
+  //       link: "/marketplace",
+  //     },
+  //     {
+  //       name: "Privacy & Policy",
+  //       link: "/privacy",
+  //     },
+  //   ],
+  // },
 ];
 
 export default footer;

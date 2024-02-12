@@ -2,7 +2,7 @@
 
 import React from "react";
 import styled from "styled-components";
-import logo from "/public/logo.png";
+import logo from "/public/Light_Logo.png";
 import footer from "../utils/footer";
 import Image from "next/image";
 
@@ -28,8 +28,8 @@ function Footer() {
             <button>&#8594;</button>
           </div>
           <p>
-            Create, Sell And Collect Truly Rare Digital Artworks. Powered By
-            Blockchain Technology.
+          Frontier AI
+in your hands.
           </p>
           <div className="socials">
             <AiFillGithub />
@@ -59,7 +59,7 @@ function Footer() {
         </div>
       </nav>
       <p className="rights">
-        <a href="">©2023 The Code Dealer. All rights reserved.</a>
+        <a href="">© 2024 Mistral AI, All rights reserved - Legal notice</a>
         <a href="">Privacy policy | Terms of service</a>
       </p>
     </FooterStyled>
@@ -92,7 +92,7 @@ const FooterStyled = styled.footer`
         width: 100%;
         padding: 1rem 0.8rem;
         border-radius: 8px;
-        background-color: #161616;
+        background-color: transparent;
         border: 1px solid var(--color-border);
         &::placeholder {
           color: var(--color-border);
@@ -109,7 +109,7 @@ const FooterStyled = styled.footer`
         cursor: pointer;
         transition: all 0.3s ease-in-out;
         &:hover {
-          color: white;
+          color: orange;
           transform: translateY(-50%) translateX(0.5rem);
         }
       }
@@ -122,7 +122,7 @@ const FooterStyled = styled.footer`
           cursor: pointer;
           transition: all 0.3s ease-in-out;
           &:hover {
-            color: white;
+            color: orange;
           }
         }
       }
@@ -151,7 +151,7 @@ const FooterStyled = styled.footer`
       a {
         transition: all 0.3s ease-in-out;
         &:hover {
-          color: white;
+          color: orange;
         }
       }
     }
