@@ -3,6 +3,8 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import logo from "../../../public/Light_Logo.png";
+// import Hero_Video from "../../../public/Hero_Video.mp4";
+
 import Button from "../Button/Button";
 import styled from "styled-components";
 import { FaRocket, FaWallet } from "react-icons/fa";
@@ -85,8 +87,10 @@ Unmatched efficiency, Apache 2.0.
               transform: hoverHero.transform,
             }}
           >
+              {/* // src="/images/monkey.png" */}  
+
             <Image
-              src="/images/monkey.png"
+              src='/Light_Logo.png'
               width={600}
               height={600}
               alt="hero"
@@ -94,6 +98,7 @@ Unmatched efficiency, Apache 2.0.
                 transform: imageHover.transform,
               }}
             />
+            
           </div>
         </div>
       </div>
