@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-import logo from "../../../public/logo.png";
+import logo from "../../../public/Light_Logo.png";
 import Button from "../Button/Button";
 import styled from "styled-components";
 import { FaRocket, FaWallet } from "react-icons/fa";
@@ -33,38 +33,39 @@ function Header() {
     <HeaderStyled ref={hero}>
       <nav>
         <div className="logo">
-          <Image src={logo} alt="logo" width={36} />
+          <Image src={logo} alt="logo" width={80} />
           <h2>Logo</h2>
         </div>
-        <div className="input">
+        {/* <div className="input">
           <input type="text" placeholder="Search" />
-        </div>
+        </div> */}
         <ul className="nav-items">
           <li>
-            <a href="#">Home</a>
+            <a href="#">Developers</a>
           </li>
           <li>
-            <a href="#">Auctions</a>
+            <a href="#">Product</a>
           </li>
           <li>
-            <a href="#">Marketplace</a>
+            <a href="#">Company</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">News</a>
           </li>
-          <Button name="Connect Wallet" icon={<FaWallet />} />
+          {/* <Button name="Try Now" icon={<FaWallet />} /> */}
+          <Button name="Try Now"  />
+
         </ul>
       </nav>
       <div className="header-content">
         <div className="text-content">
           <h1 className={abril.className}>
-            Buy, collect, and sell extraordinary NFTs
+          Frontier AI
+in your hands
           </h1>
           <p>
-            Acquire expertise in navigating the rapidly evolving and
-            exhilarating NFT landscape, unveil the highly sought-after NFTs, and
-            comprehend the possible advantages and disadvantages of acquiring,
-            amassing, and vending these exceptional digital assets.
+          Our new SMoE model is out!
+Unmatched efficiency, Apache 2.0.
           </p>
           <div className="buttons">
             <Button
@@ -74,7 +75,7 @@ function Header() {
               border="1px solid #f2994a"
               icon={<FaRocket />}
             />
-            <Button name="Learn More" />
+            <Button color="#36454F" name="Learn More" />
           </div>
         </div>
         <div className="image-content">
@@ -140,7 +141,7 @@ const HeaderStyled = styled.header`
         transition: all 0.2s ease-in-out;
 
         &:hover {
-          color: white;
+          color: #F2994A;
           transform: scale(1.1);
         }
       }

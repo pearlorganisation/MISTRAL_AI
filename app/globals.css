@@ -1,6 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --color-border: #424242;
-  --color-bg: #111111;
+  --color-border: #ffb366;
+  --color-bg: #ffffff;
 }
 
 * {
@@ -15,7 +19,7 @@ body {
   position: relative;
   background-color: var(--color-bg);
   font-size: 1.2rem;
-  color: hsla(180, 7%, 75%, 0.9);
+  color: #36454F;
   overflow-x: hidden;
 }
 

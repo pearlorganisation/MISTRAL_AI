@@ -43,7 +43,7 @@ const ButtonStyled = styled.button`
   gap: 1rem;
   &:hover {
     background-color: var(--color-border);
-    color: white;
+    color: #F2994A;
   }
 `;
 
